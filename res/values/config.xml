@@ -14,4 +14,8 @@
          If this value is empty or unparsable, we will apply APNs from the APN
          conf xml file.  -->
     <string name="apn_source_service" translatable="false"></string>
+
+    <!-- The preferred APN to use, in the format name,mcc,mnc
+         Leave empty to choose automatically. -->
+    <string name="config_preferred_apn"></string>
 </resources>
